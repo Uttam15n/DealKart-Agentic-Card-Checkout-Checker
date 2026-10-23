@@ -241,17 +241,17 @@ Open `http://localhost:3000` and check `http://localhost:3000/health`. `hasGemin
 
 > Add your images to `docs/screenshots/` and keep the file names below, or edit the paths.
 
-| Checkout and Chat | Card Comparison |
+| Home Page | Bank offer and Save Cards |
 |---|---|
-| ![Checkout and chat](docs/screenshots/checkout-chat.png) | ![Card comparison](docs/screenshots/card-comparison.png) |
+| <img width="1878" height="887" alt="Screenshot 2026-10-23 180541" src="https://github.com/user-attachments/assets/e1a14344-8798-4c9f-8afd-27af940ddf8f" />| <img width="1895" height="900" alt="Screenshot 2026-10-23 180623" src="https://github.com/user-attachments/assets/e6842a07-a360-4e5c-b800-619b0521637d" /> |
 
-| Approval Gate | Re-Verification Audit |
+| Test Cases | CheckOut Page |
 |---|---|
-| ![Approval gate](docs/screenshots/approval-gate.png) | ![Re-verification](docs/screenshots/reverification.png) |
+| <img width="1892" height="782" alt="Screenshot 2026-10-23 180600" src="https://github.com/user-attachments/assets/f64eb418-6de7-4faf-b3e5-68e67103aad5" /> |<img width="1876" height="876" alt="Screenshot 2026-10-23 180644" src="https://github.com/user-attachments/assets/c5e9c247-8368-45a5-a802-5247e939bb60" /> |
 
-| Voice Assistant | Input Records Inspector |
+| LangGraph Voice Assistant | Best offer AI Solution |
 |---|---|
-| ![Voice assistant](docs/screenshots/voice-assistant.png) | ![Input inspector](docs/screenshots/input-inspector.png) |
+| <img width="1886" height="908" alt="Screenshot 2026-10-23 180705" src="https://github.com/user-attachments/assets/34485054-d109-4b82-83aa-94b28c4e8b9d" /> | <img width="868" height="776" alt="Screenshot 2026-10-23 180725" src="https://github.com/user-attachments/assets/3521b43a-bdbd-495a-b9f7-4a7924f8f62a" /> |
 
 ---
 
