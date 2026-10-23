@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for DealKart with LangGraph-powered Card Offer Checker at checkout, featuring dual Gemini/Groq engine support, 60+ seeded products, realistic bank offer pages, interactive voice and chat, human approval node, idempotent apply and reverify, and a visual test runner for all 4 audit scenarios.",
+  "updatedAt":  "2026-10-22T07:16:34.949190680Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
