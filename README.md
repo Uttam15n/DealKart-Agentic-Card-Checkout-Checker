@@ -159,8 +159,6 @@ flowchart LR
 
 ## 6. Project Structure
 
-> Adjust folder names if your layout differs. Run `tree /F` (Windows) or `tree` to compare.
-
 ```
 dealkart---card-offer/
 ├── server.ts                  # Express app: REST API, mock bank pages, Vite/static mount
@@ -199,24 +197,9 @@ dealkart---card-offer/
 git clone https://github.com/Uttam15n/DealKart-Agentic-Card-Checkout-Checker.git
 cd DealKart-Agentic-Card-Checkout-Checker
 npm install
-cp .env.example .env      # Windows PowerShell: Copy-Item .env.example .env
 ```
 
-Fill in `.env` with your own keys:
-
-```env
-GEMINI_API_KEY=
-GEMINI_MODEL=
-GROQ_API_KEY=
-GROQ_MODEL_MAIN=
-```
-
-```bash
-npm run dev               # development with Vite middleware
-npm run build && npm start   # production
-```
-
-Open `http://localhost:3000` and check `http://localhost:3000/health`. `hasGeminiKey: true` means the key was loaded.
+Open `http://localhost:3000`
 
 ### Key endpoints
 
@@ -230,16 +213,7 @@ Open `http://localhost:3000` and check `http://localhost:3000/health`. `hasGemin
 | GET | `/bank-offers/:bank` | Mock bank offer pages |
 | GET | `/health` | Status and key presence |
 
-### Notes
-
-- The cart, sessions and audit log are held in memory. They reset when the server restarts, and it runs as a single instance.
-- Never commit `.env`. Set the same variables in your hosting dashboard when deploying.
-
----
-
 ## 8. Screenshots
-
-> Add your images to `docs/screenshots/` and keep the file names below, or edit the paths.
 
 | Home Page | Bank offer and Save Cards |
 |---|---|
@@ -260,6 +234,5 @@ Open `http://localhost:3000` and check `http://localhost:3000/health`. `hasGemin
 **Uttam**
 
 - GitHub: [@Uttam15n](https://github.com/Uttam15n)
-- Project: [DealKart – Agentic Card Checkout Checker](https://github.com/Uttam15n/DealKart-Agentic-Card-Checkout-Checker)
+- Project: https://dealkart-agentic-card-checkout-checker.onrender.com/
 
-If you find this project useful, please consider giving it a ⭐.
